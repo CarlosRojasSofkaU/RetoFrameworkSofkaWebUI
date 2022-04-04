@@ -86,8 +86,6 @@ public class ContactarServicioAlClienteStepDefinition extends Setup {
     @After
     public void cerrarDriver() throws InterruptedException {
 
-        //Thread.sleep(5000);
-
         if (webAction != null && webAction.getDriver() != null)
             webAction.closeBrowser();
 

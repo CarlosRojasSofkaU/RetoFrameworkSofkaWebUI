@@ -11,8 +11,16 @@ public class MyAccountPage {
     @FindBy(className = "account")
     WebElement customerName;
 
+    @CacheLookup
+    @FindBy(xpath = "//*[@id=\"block_top_menu\"]/ul/li[1]/a")
+    WebElement womenCategory;
+
     public WebElement getCustomerName() {
         return customerName;
+    }
+
+    public WebElement getWomenCategory() {
+        return womenCategory;
     }
 
     public MyAccountPage(WebDriver webDriver) {

@@ -1,9 +1,9 @@
 package com.automationpractice.webproject.test.controllers.crearnuevacuenta;
 
-import com.automationpractice.webproject.test.page.micuenta.MyAccountPage;
 import co.com.sofka.test.actions.WebAction;
 import co.com.sofka.test.evidence.reports.Report;
 import co.com.sofka.test.exceptions.WebActionsException;
+import com.automationpractice.webproject.test.page.micuenta.MyAccountPage;
 
 import static com.automationpractice.webproject.test.helpers.Dictionary.EMPTY_STRING;
 import static com.automationpractice.webproject.test.helpers.Seconds.TWO_SECONDS;

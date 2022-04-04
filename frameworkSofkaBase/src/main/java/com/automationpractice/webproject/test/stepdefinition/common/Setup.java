@@ -1,7 +1,7 @@
 package com.automationpractice.webproject.test.stepdefinition.common;
 
-import com.automationpractice.webproject.test.data.objects.TestInfo;
 import co.com.sofka.test.automationtools.selenium.Browser;
+import com.automationpractice.webproject.test.data.objects.TestInfo;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class Setup {

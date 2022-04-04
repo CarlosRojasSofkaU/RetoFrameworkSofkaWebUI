@@ -16,6 +16,7 @@ public class Customer {
     private String contactUsMessage;
     private String contactUsOrderReference;
     private String subjectHeading;
+    private Double totalOrderPrice;
 
     public String getEmail() {
         return email;
@@ -135,5 +136,13 @@ public class Customer {
 
     public void setContactUsOrderReference(String contactUsOrderReference) {
         this.contactUsOrderReference = contactUsOrderReference;
+    }
+
+    public Double getTotalOrderPrice() {
+        return totalOrderPrice;
+    }
+
+    public void setTotalOrderPrice(Double totalOrderPrice) {
+        this.totalOrderPrice = totalOrderPrice;
     }
 }

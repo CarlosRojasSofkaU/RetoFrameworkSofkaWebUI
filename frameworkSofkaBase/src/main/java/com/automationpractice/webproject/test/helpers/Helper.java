@@ -1,9 +1,8 @@
 package com.automationpractice.webproject.test.helpers;
 
 
-import com.automationpractice.webproject.test.model.costumer.Customer;
 import co.com.sofka.test.evidence.reports.Report;
-
+import com.automationpractice.webproject.test.model.costumer.Customer;
 import com.github.javafaker.Faker;
 
 import java.io.FileReader;

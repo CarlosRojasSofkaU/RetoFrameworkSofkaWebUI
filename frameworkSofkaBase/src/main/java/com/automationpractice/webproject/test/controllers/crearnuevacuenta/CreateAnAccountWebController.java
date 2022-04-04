@@ -1,10 +1,11 @@
 package com.automationpractice.webproject.test.controllers.crearnuevacuenta;
 
-import com.automationpractice.webproject.test.model.costumer.Customer;
-import com.automationpractice.webproject.test.page.crearnuevacuenta.CreateAnAccountPage;
 import co.com.sofka.test.actions.WebAction;
 import co.com.sofka.test.evidence.reports.Report;
 import co.com.sofka.test.exceptions.WebActionsException;
+import com.automationpractice.webproject.test.model.costumer.Customer;
+import com.automationpractice.webproject.test.page.crearnuevacuenta.CreateAnAccountPage;
+
 import static com.automationpractice.webproject.test.helpers.Dictionary.*;
 import static com.automationpractice.webproject.test.helpers.Helper.generateCustomer;
 import static com.automationpractice.webproject.test.helpers.Seconds.TEN_SECONDS;

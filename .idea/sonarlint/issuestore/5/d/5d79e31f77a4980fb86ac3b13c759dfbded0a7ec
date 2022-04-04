@@ -1,0 +1,7 @@
+
+“
+java:S1130‡"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(±èÎ—þÿÿÿÿ
+o
+java:S2293A"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡Ð˜Ý
+o
+java:S2293k"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡Ð˜Ý

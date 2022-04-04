@@ -1,5 +1,8 @@
 package com.automationpractice.webproject.test.stepdefinition.crearnuevacuenta;
 
+import co.com.sofka.test.actions.WebAction;
+import co.com.sofka.test.evidence.reports.Assert;
+import co.com.sofka.test.evidence.reports.Report;
 import com.automationpractice.webproject.test.controllers.crearnuevacuenta.CreateAnAccountWebController;
 import com.automationpractice.webproject.test.controllers.crearnuevacuenta.LoginPageController;
 import com.automationpractice.webproject.test.controllers.crearnuevacuenta.MyAccountWebController;
@@ -7,9 +10,6 @@ import com.automationpractice.webproject.test.controllers.openwebpage.StartBrows
 import com.automationpractice.webproject.test.data.objects.TestInfo;
 import com.automationpractice.webproject.test.model.costumer.Customer;
 import com.automationpractice.webproject.test.stepdefinition.common.Setup;
-import co.com.sofka.test.actions.WebAction;
-import co.com.sofka.test.evidence.reports.Assert;
-import co.com.sofka.test.evidence.reports.Report;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;

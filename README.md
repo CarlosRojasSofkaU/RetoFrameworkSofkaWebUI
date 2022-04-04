@@ -19,7 +19,7 @@ Para esto se definen las siguientes secciones:
 
 ## Configuración inicial
 
-Para poder correr las pruebas automatizadas se debe ubicar en la ruta frameworkSofkaBase/src/test/java/co/com/sofka/runner y posteriormente
+Para poder correr las pruebas automatizadas se debe ubicar en la ruta frameworkSofkaBase/src/main/java/com/automationpractice/webproject/test/runners y posteriormente
 
 en cualquiera de los paquetes que se encuentran allí (administrarcarrodecompras, contactarservicioalcliente, crearnuevacuenta), en ellos encontrará ejecutables java
 
